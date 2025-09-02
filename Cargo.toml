@@ -1,0 +1,11 @@
+[package]
+name = "status_watcher"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.5.46", features = ["derive"] }
+reqwest = "0.12.23"
+smol = "2.0.2"
+tokio = { version = "1.47.1", features = ["macros", "rt", "rt-multi-thread"] }
+zbus = "5.10.0"
